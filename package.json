@@ -1,0 +1,20 @@
+{
+  "name": "discord-bot-js",
+  "version": "1.0.0",
+  "description": "Discord bot com /imagine (OpenAI, Gemini, Grok), /search e /embed",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "register": "node src/register-commands.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "openai": "^4.77.0",
+    "@google/genai": "^0.7.0",
+    "dotenv": "^16.4.7"
+  }
+}
